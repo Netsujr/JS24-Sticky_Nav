@@ -45,7 +45,7 @@ body {
 
 .fixed-nav .site-wrap {
   transform: scale(1);
-  max-width: 806px;
+  max-width: 66.7vw;
 }
 
 header {
