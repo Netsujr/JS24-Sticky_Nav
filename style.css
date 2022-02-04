@@ -40,7 +40,7 @@ body {
 }
 
 .fixed-nav li.logo {
-  max-width: 300px;
+  max-width: 100%;
 }
 
 .fixed-nav .site-wrap {
