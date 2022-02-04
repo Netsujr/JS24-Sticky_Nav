@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 0;
+    /* transition: all 0.5s ease-in-out; */
 }
 
 *, *:before, *:after {
@@ -23,6 +24,21 @@ body {
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
   transform: scale(0.98);
   transition: transform 0.5s;
+}
+
+.fixed-nav nav {
+  position: fixed;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.05);
+  /* height: 53px;
+  transition: all 0.5s ease-in-out; */
+}
+
+.fixed-nav li.logo {
+  max-width: 300px;
+}
+
+.fixed-nav .site-wrap {
+  transform: scale(1);
 }
 
 header {
@@ -69,7 +85,7 @@ li.logo {
   max-width: 0;
   overflow: hidden;
   background: white;
-  transition: all .5s;
+  transition: all 1s;
   font-weight: 600;
   font-size: 30px;
 }
